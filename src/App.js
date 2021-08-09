@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
+// App entry point
 const App = () => {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
